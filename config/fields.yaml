@@ -1,0 +1,80 @@
+fields:
+  - key: invoice_no
+    label: "ინვოისის ნომერი"
+    type: string
+    required: true
+
+  - key: date
+    label: "თარიღი"
+    type: date
+    required: true
+
+  - key: seller_name
+    label: "გამყიდველი (Seller)"
+    type: string
+    required: true
+
+  - key: seller_id
+    label: "გამყიდველის საიდ. კოდი"
+    type: string
+    required: true
+
+  - key: buyer_name
+    label: "მყიდველი (Buyer)"
+    type: string
+    required: true
+
+  - key: buyer_id
+    label: "მყიდველის საიდ. კოდი"
+    type: string
+    required: false
+
+  - key: exporter
+    label: "ექსპორტიორი"
+    type: string
+    required: false
+
+  - key: truck_container_no
+    label: "კონტეინერი / სატვირთო ნომერი"
+    type: string
+    required: false
+
+  - key: pickup_place
+    label: "დატვირთვის ადგილი"
+    type: string
+    required: false
+
+  - key: delivery_place
+    label: "დანიშნულების ადგილი"
+    type: string
+    required: false
+
+  - key: description
+    label: "დანიშნულება / საქონელი"
+    type: string
+    required: false
+
+  - key: unit_price
+    label: "ერთეულის ფასი"
+    type: number
+    required: false
+
+  - key: vat
+    label: "დღგ (VAT)"
+    type: number
+    required: false
+
+  - key: total_amount
+    label: "სრული თანხა"
+    type: number
+    required: true
+
+  - key: currency
+    label: "ვალუტა"
+    type: string
+    required: true
+
+  - key: weight_kg
+    label: "წონა (კგ)"
+    type: number
+    required: false
