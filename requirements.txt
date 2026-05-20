@@ -2,6 +2,5 @@ streamlit
 opendataloader-pdf
 pandas
 openpyxl
-pydantic
-PyMuPDF  # fallback-ისთვის
-python-dotenv
+PyYAML
+pymupdf
